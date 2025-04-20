@@ -1,0 +1,66 @@
+   /* Responsive */
+   @media (max-width: 768px) {
+    .category-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .navbar {
+        flex-direction: column;
+    }
+    
+    .nav-links {
+        margin-top: 20px;
+    }
+    
+    .hero h1 {
+        font-size: 36px;
+    }
+    
+    .hero p {
+        font-size: 18px;
+    }
+    
+    .materials-tabs {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .tab {
+        margin-bottom: 10px;
+        width: 80%;
+        text-align: center;
+    }
+    
+    .materials-grid {
+        grid-template-columns: 1fr;
+        max-height: 60vh;
+    }
+    
+    .pdf-viewer-container {
+        height: 300px;
+    }
+}
+@media (max-width: 480px) {
+    .login-header h2 {
+        font-size: 24px;
+    }
+
+    .login-header p {
+        font-size: 14px;
+    }
+
+    .form-control {
+        padding: 12px 15px;
+        padding-right: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .login-container {
+        margin: 0 20px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+}

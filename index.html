@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أكاديمية التطوير | الصفحة الرئيسية</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <!-- الصفحة الرئيسية -->
+    <div id="home-page">
+        <header>
+            <div class="container">
+                <div class="navbar">
+                    <a href="#" class="logo">أكاديمية التطوير</a>
+                    <ul class="nav-links">
+                        <li><a href="#" onclick="showHomePage()">الرئيسية</a></li>
+                        <li><a href="#" onclick="showEnglishPage()">اللغة الإنجليزية</a></li>
+                        <li><a href="#">البرمجة</a></li>
+                        <li><a href="#">عن الأكاديمية</a></li>
+                        <li><a href="#">اتصل بنا</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <section class="hero">
+            <div class="container">
+                <h1>تعلم اللغة الإنجليزية والبرمجة مع أفضل الخبراء</h1>
+                <p>منصة تعليمية متكاملة تقدم دورات احترافية في اللغة الإنجليزية والبرمجة لتطوير مهاراتك وتحقيق أهدافك المهنية</p>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <div class="container">
+                <h2>مرحباً بك فيتطور اكاديمي</h2>
+                <p>نحن مؤسسة تعليمية رائدة متخصصة في تقديم دورات تدريبية عالية الجودة في مجالات اللغة الإنجليزية والبرمجة. فريقنا من المدربين المحترفين يساعدك على تحقيق أهدافك من خلال منهجية تعليمية مبتكرة ومواد تعليمية متميزة تناسب جميع المستويات.</p>
+            </div>
+        </section>
+
+        <section class="categories">
+            <div class="container">
+                <h2>اختر مسارك التعليمي</h2>
+                <div class="category-grid">
+                    <div class="category-card">
+                        <div class="category-img">
+                            <img src="https://via.placeholder.com/400x200" alt="تعلم اللغة الإنجليزية">
+                        </div>
+                        <div class="category-content">
+                            <h3>اللغة الإنجليزية</h3>
+                            <p>دورات لغة إنجليزية لجميع المستويات مع محتوى صوتي وكتب PDF تفاعلية لتحسين مهاراتك في التحدث والكتابة والاستماع والقراءة.</p>
+                            <a href="#" class="btn" onclick="showEnglishPage()">استكشف المستويات</a>
+                        </div>
+                    </div>
+
+                    <div class="category-card">
+                        <div class="category-img">
+                            <img src="https://via.placeholder.com/400x200" alt="تعلم البرمجة">
+                        </div>
+                        <div class="category-content">
+                            <h3>البرمجة</h3>
+                            <p>دورات برمجة متكاملة في مختلف لغات البرمجة وتقنيات الويب والتطبيقات لتطوير مهاراتك التقنية وفتح آفاق مهنية جديدة.</p>
+                            <a href="#" class="btn">استكشف اللغات</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <h3>أكاديمية التطوير</h3>
+                    <p>نحن نسعى دائماً لتقديم أفضل المحتويات التعليمية لمساعدتك على تحقيق أهدافك المهنية والشخصية.</p>
+                </div>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+                <div class="copyright">
+                    <p>&copy; 2025تطور اكاديمي. جميع الحقوق محفوظة.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- صفحة مستويات اللغة الإنجليزية -->
+    <div id="english-page" style="display: none;">
+        <header>
+            <div class="container">
+                <div class="navbar">
+                    <a href="#" class="logo">أكاديمية التطوير</a>
+                    <ul class="nav-links">
+                        <li><a href="#" onclick="showHomePage()">الرئيسية</a></li>
+                        <li><a href="#" onclick="showEnglishPage()">اللغة الإنجليزية</a></li>
+                        <li><a href="#">البرمجة</a></li>
+                        <li><a href="#">عن الأكاديمية</a></li>
+                        <li><a href="#">اتصل بنا</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <section class="levels-section">
+            <div class="container">
+                <h2>مستويات اللغة الإنجليزية</h2>
+                <div class="levels-grid">
+                    <div class="level-card">
+                        <div class="level-img">
+                            <img src="https://via.placeholder.com/300x180" alt="المستوى المبتدئ">
+                        </div>
+                        <div class="level-content">
+                            <h3>المستوى المبتدئ (A1)</h3>
+                            <p>تعلم أساسيات اللغة الإنجليزية من الصفر، بما في ذلك التحيات والعبارات الأساسية والقواعد البسيطة.</p>
+                            <a href="#" class="btn" onclick="showMaterialsPage('المستوى المبتدئ (A1)')">عرض المواد</a>
+                        </div>
+                    </div>
+
+                    <div class="level-card">
+                        <div class="level-img">
+                            <img src="https://via.placeholder.com/300x180" alt="المستوى الأساسي">
+                        </div>
+                        <div class="level-content">
+                            <h3>المستوى الأساسي (A2)</h3>
+                            <p>تعلم التعبير عن الأفكار البسيطة والحديث عن الحياة اليومية باستخدام جمل بسيطة.</p>
+                            <a href="#" class="btn" onclick="showMaterialsPage('المستوى الأساسي (A2)')">عرض المواد</a>
+                        </div>
+                    </div>
+
+                    <div class="level-card">
+                        <div class="level-img">
+                            <img src="https://via.placeholder.com/300x180" alt="المستوى المتوسط">
+                        </div>
+                        <div class="level-content">
+                            <h3>المستوى المتوسط (B1)</h3>
+                            <p>تطوير مهارات المحادثة والكتابة وفهم النصوص الأكثر تعقيداً والتعبير عن الآراء.</p>
+                            <a href="#" class="btn" onclick="showMaterialsPage('المستوى المتوسط (B1)')">عرض المواد</a>
+                        </div>
+                    </div>
+
+                    <div class="level-card">
+                        <div class="level-img">
+                            <img src="https://via.placeholder.com/300x180" alt="المستوى فوق المتوسط">
+                        </div>
+                        <div class="level-content">
+                            <h3>المستوى فوق المتوسط (B2)</h3>
+                            <p>إتقان المهارات اللغوية للتواصل بطلاقة في مواقف العمل والدراسة والسفر.</p>
+                            <a href="#" class="btn" onclick="showMaterialsPage('المستوى فوق المتوسط (B2)')">عرض المواد</a>
+                        </div>
+                    </div>
+
+                    <div class="level-card">
+                        <div class="level-img">
+                            <img src="https://via.placeholder.com/300x180" alt="المستوى المتقدم">
+                        </div>
+                        <div class="level-content">
+                            <h3>المستوى المتقدم (C1)</h3>
+                            <p>تعلم التعبير عن الأفكار المعقدة بطلاقة واستخدام اللغة بشكل فعال في المجالات الأكاديمية والمهنية.</p>
+                            <a href="#" class="btn" onclick="showMaterialsPage('المستوى المتقدم (C1)')">عرض المواد</a>
+                        </div>
+                    </div>
+
+                    <div class="level-card">
+                        <div class="level-img">
+                            <img src="https://via.placeholder.com/300x180" alt="مستوى الإتقان">
+                        </div>
+                        <div class="level-content">
+                            <h3>مستوى الإتقان (C2)</h3>
+                            <p>تطوير مهارات اللغة الإنجليزية لتصل إلى مستوى المتحدث الأصلي تقريباً، مع فهم وإنتاج نصوص معقدة.</p>
+                            <a href="#" class="btn" onclick="showMaterialsPage('مستوى الإتقان (C2)')">عرض المواد</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <h3>أكاديمية التطوير</h3>
+                    <p>نحن نسعى دائماً لتقديم أفضل المحتويات التعليمية لمساعدتك على تحقيق أهدافك المهنية والشخصية.</p>
+                </div>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+                <div class="copyright">
+                    <p>&copy; 2025تطور اكاديمي. جميع الحقوق محفوظة.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- صفحة المواد التعليمية (الصوت و PDF) -->
+    <div id="materials-page" style="display: none;">
+        <header>
+            <div class="container">
+                <div class="navbar">
+                    <a href="#" class="logo">أكاديمية التطوير</a>
+                    <ul class="nav-links">
+                        <li><a href="#" onclick="showHomePage()">الرئيسية</a></li>
+                        <li><a href="#" onclick="showEnglishPage()">اللغة الإنجليزية</a></li>
+                        <li><a href="#">البرمجة</a></li>
+                        <li><a href="#">عن الأكاديمية</a></li>
+                        <li><a href="#">اتصل بنا</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <section class="materials-section">
+            <div class="container">
+                <h2>مواد <span id="level-title">المستوى المبتدئ</span></h2>
+                <h3>اختر نوع المواد التعليمية</h3>
+                
+                <div class="materials-tabs">
+                    <div class="tab active" onclick="switchMaterialTab('audio')">الملفات الصوتية</div>
+                    <div class="tab" onclick="switchMaterialTab('pdf')">ملفات PDF</div>
+                </div>
+                
+                <!-- قسم الملفات الصوتية -->
+                <div id="audio-content" class="materials-content active">
+                    <div class="materials-grid">
+                        <div class="material-card protected-content">
+                            <div class="material-content">
+                                <div class="material-icon">
+                                    <i class="fas fa-headphones"></i>
+                                </div>
+                                <h4>التحيات والتعارف</h4>
+                                <p>استمع إلى محادثات أساسية حول كيفية تقديم نفسك والترحيب بالآخرين باللغة الإنجليزية.</p>
+                                <div class="audio-player">
+                                    <audio controls controlsList="nodownload nofullscreen noremoteplayback" disablePictureInPicture>
+                                        <source src="audio/example.mp3" type="audio/mpeg">
+                                        متصفحك لا يدعم تشغيل الملفات الصوتية.
+                                    </audio>
+                                    <div class="audio-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="material-card protected-content">
+                            <div class="material-content">
+                                <div class="material-icon">
+                                    <i class="fas fa-headphones"></i>
+                                </div>
+                                <h4>الأرقام والعد</h4>
+                                <p>تعلم نطق الأرقام باللغة الإنجليزية واستخدامها في المحادثات اليومية.</p>
+                                <div class="audio-player">
+                                    <audio controls controlsList="nodownload nofullscreen noremoteplayback" disablePictureInPicture>
+                                        <source src="audio/example.mp3" type="audio/mpeg">
+                                        متصفحك لا يدعم تشغيل الملفات الصوتية.
+                                    </audio>
+                                    <div class="audio-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="material-card protected-content">
+                            <div class="material-content">
+                                <div class="material-icon">
+                                    <i class="fas fa-headphones"></i>
+                                </div>
+                                <h4>في المطعم</h4>
+                                <p>استمع إلى محادثات حول طلب الطعام والشراب في المطاعم وكيفية التعامل مع النادل.</p>
+                                <div class="audio-player">
+                                    <audio controls controlsList="nodownload nofullscreen noremoteplayback" disablePictureInPicture>
+                                        <source src="audio/example.mp3" type="audio/mpeg">
+                                        متصفحك لا يدعم تشغيل الملفات الصوتية.
+                                    </audio>
+                                    <div class="audio-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="material-card protected-content">
+                            <div class="material-content">
+                                <div class="material-icon">
+                                    <i class="fas fa-headphones"></i>
+                                </div>
+                                <h4>الاتجاهات والأماكن</h4>
+                                <p>تعلم كيفية السؤال عن الطريق وإعطاء الاتجاهات للآخرين باللغة الإنجليزية.</p>
+                                <div class="audio-player">
+                                    <audio controls controlsList="nodownload nofullscreen noremoteplayback" disablePictureInPicture>
+                                        <source src="audio/example.mp3" type="audio/mpeg">
+                                        متصفحك لا يدعم تشغيل الملفات الصوتية.
+                                    </audio>
+                                    <div class="audio-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="material-card protected-content">
+                            <div class="material-content">
+                                <div class="material-icon">
+                                    <i class="fas fa-headphones"></i>
+                                </div>
+                                <h4>الألوان</h4>
+                                <p>تعلم نطق الألوان باللغة الإنجليزية واستخدامها في الجمل.</p>
+                                <div class="audio-player">
+                                    <audio controls controlsList="nodownload">
+                                        <source src="audio/colors.mp3" type="audio/mpeg">
+                                        متصفحك لا يدعم تشغيل الملفات الصوتية.
+                                    </audio>
+                                    <div class="audio-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="material-card protected-content">
+                            <div class="material-content">
+                                <div class="material-icon">
+                                    <i class="fas fa-headphones"></i>
+                                </div>
+                                <h4>أيام الأسبوع</h4>
+                                <p>تعلم نطق أيام الأسبوع باللغة الإنجليزية واستخدامها في المحادثات.</p>
+                                <div class="audio-player">
+                                    <audio controls controlsList="nodownload nofullscreen noremoteplayback" disablePictureInPicture>
+                                        <source src="audio/example.mp3" type="audio/mpeg">
+                                        متصفحك لا يدعم تشغيل الملفات الصوتية.
+                                    </audio>
+                                    <div class="audio-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- قسم ملفات PDF -->
+                <div id="pdf-content" class="materials-content">
+                    <div class="materials-grid">
+                        <div class="material-card protected-content">
+                            <div class="material-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <div class="material-content">
+                                <h4>كتاب القواعد الأساسية</h4>
+                                <p>معاينة كتاب القواعد الأساسية للمستوى المبتدئ</p>
+                                <div class="pdf-viewer-container">
+                                    <iframe class="pdf-viewer" src="استبيان تقييم الكورس والمدرب.pdf" width="100%" height="100%"></iframe>                                                                        <div class="pdf-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="material-card protected-content">
+                            <div class="material-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <div class="material-content">
+                                <h4>تمارين المفردات</h4>
+                                <p>معاينة تمارين لتعزيز المفردات اللغوية</p>
+                                <div class="pdf-viewer-container">
+                                    <iframe class="pdf-viewer" src="استبيان تقييم الكورس والمدرب.pdf" width="100%" height="100%"></iframe>                                                                        <div class="pdf-overlay"></div>
+                                    <div class="pdf-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="material-card protected-content">
+                            <div class="material-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <div class="material-content">
+                                <h4>نماذج امتحانات</h4>
+                                <p>معاينة نماذج امتحانات سابقة مع الحلول</p>
+                                <div class="pdf-viewer-container">
+                                    <iframe class="pdf-viewer" src="استبيان تقييم الكورس والمدرب.pdf" width="100%" height="100%"></iframe>                                                                        <div class="pdf-overlay"></div>
+                                    <div class="pdf-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="material-card protected-content">
+                            <div class="material-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <div class="material-content">
+                                <h4>الخطة الدراسية</h4>
+                                <p>معاينة الخطة الدراسية والمنهج المتبع في المستوى</p>
+                                <div class="pdf-viewer-container">
+                                    <iframe class="pdf-viewer" src="استبيان تقييم الكورس والمدرب.pdf" width="100%" height="100%"></iframe>                                                                        <div class="pdf-overlay"></div>
+                                    <div class="pdf-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="material-card protected-content">
+                            <div class="material-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <div class="material-content">
+                                <h4>قائمة المفردات</h4>
+                                <p>معاينة قائمة المفردات الأساسية للمستوى المبتدئ</p>
+                                <div class="pdf-viewer-container">
+                                    <iframe class="pdf-viewer" src="استبيان تقييم الكورس والمدرب.pdf" width="100%" height="100%"></iframe>                                                                        <div class="pdf-overlay"></div>
+                                    <div class="pdf-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="material-card protected-content">
+                            <div class="material-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <div class="material-content">
+                                <h4>تمارين الاستماع</h4>
+                                <p>معاينة تمارين لتحسين مهارات الاستماع</p>
+                                <div class="pdf-viewer-container">
+                                    <iframe class="pdf-viewer" src="استبيان تقييم الكورس والمدرب.pdf" width="100%" height="100%"></iframe>                                                                        <div class="pdf-overlay"></div>
+                                    <div class="pdf-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <h3>أكاديمية التطوير</h3>
+                    <p>نحن نسعى دائماً لتقديم أفضل المحتويات التعليمية لمساعدتك على تحقيق أهدافك المهنية والشخصية.</p>
+                </div>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+                <div class="copyright">
+                    <p>&copy; 2025تطور اكاديمي. جميع الحقوق محفوظة.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+<script src="javascript/main.js"></script>
+</body>
+</html>
